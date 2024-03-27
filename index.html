@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilien Gerbouin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900" rel="stylesheet">
+    <!-- <script src="./js/contact.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("CFw5W8fX7X9BgljAD");
+        })();
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="#home">
+            <img src="./assets/img/logo.png" alt="logo" class="logo">
+        </a>
+        <nav>
+            <a href="#contact">Contactez-moi</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="title">
+
+                <h1>Développeur Front-End</h1>
+                <h2 class="slogan">Développeur passionné par la création d'interfaces utilisateur</h2>
+            </div>
+            <div class="memoji">
+                <img src="./assets/img/memoji.png" alt="memoji">
+                <div class="circle"></div>
+            </div>
+        </section>
+        <section class="presentation"></section>
+        <section class="skills_section">
+            <h2 class="skills_title">Logiciels / Environnement</h2>
+            <div class="skills_grid"></div>
+        </section>
+        <section class="projects_section container">
+            <h2 class="projects_title">Projets</h2>
+            <div id="carousel"></div>
+        </section>
+        <section id="contact" class="contact_section">
+            <h2 class="contact_title">Contactez-moi</h2>
+            <form name="reserve" action="index.html" method="get" novalidate>
+                <div class="form_group">
+                    <div class="formData" data-error="Veuillez renseigner un prénom valide">
+                        <label for="first">Prénom</label><br>
+                        <input class="text-control" type="text" id="first" name="first" minlength="2" required /><br>
+                    </div>
+                    <div class="formData" data-error="Veuillez renseigner un nom valide">
+                        <label for="last">Nom</label><br>
+                        <input class="text-control" type="text" id="last" name="last" /><br>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <div class="formData" data-error="Veuillez renseigner un numéro valide">
+                        <label for="phone">N° de téléphone</label><br>
+                        <input class="text-control" type="tel" id="phone" name="phone" /><br>
+                    </div>
+                    <div class="formData" data-error="Veuillez renseigner un email valide">
+                        <label for="email">E-mail</label><br>
+                        <input class="text-control" type="email" id="email" name="email" /><br>
+                    </div>
+                </div>
+                <div class="formData" data-error="Veuillez renseigner l'objet de votre message">
+                    <label for=" object">Objet</label><br>
+                    <input class="text-control" type="object" id="object" name="object" /><br>
+                </div>
+                <div class="formData" data-error="Veuillez renseigner votre message">
+                    <label for="message">Message</label><br>
+                    <textarea class="text-control" id="message" name="message" rows="5"></textarea><br>
+                </div>
+                <button class="btn-submit" type="submit" class="button">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="informations">
+            <div class="email__container footer__element">
+                <a href="mailto:emilien.gerbouin@gmail.com" class="email__link"> emilien.gerbouin@gmail.com </a>
+            </div>
+            <div class="phone__container footer__element">
+                <a href="tel:0767901035" class="phoneNumber">07.67.90.10.35</a>
+            </div>
+            <div class="localisation__container footer__element">
+                <p class="localisation">France</p>
+            </div>
+        </div>
+        <p class="copyright">© 2024 - Emilien Gerbouin - Tous droits réservés</p>
+
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+
+</html>

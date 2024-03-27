@@ -1,0 +1,101 @@
+{
+    "skills": [
+        {
+			"name": "HTML",
+			"picture": "html.png"
+		}, {
+            "name": "CSS",
+			"picture": "css.png"
+		}, {
+            "name": "SASS",
+			"picture": "sass.png"
+		}, {
+            "name": "JavaScript",
+			"picture": "js.png"
+		}, {
+            "name": "REACT",
+			"picture": "react.png"
+		}, {
+            "name": "GIT",
+			"picture": "git.png"
+		}, {
+            "name": "NODEjs",
+			"picture": "nodejs.png"
+		}, {
+            "name": "JEST",
+			"picture": "jest.png"
+        }
+    ], "projects": [
+        {
+            "title": "Booki",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/"
+            },{
+            "title": "Oh my food",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "ohmyfood_project.png",
+            "link": "https://github.com/Emiliengrbn/ohmyfood"
+        },{
+            "title": "La Panthère",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "panthere_project.png",
+            "link": "https://github.com/Emiliengrbn/agence_la_panthere"
+        },{
+            "title": "Kanap",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "kanap_project.png",
+            "link": "https://github.com/Emiliengrbn/Kanap"
+        },{
+            "title": "Hot Takes",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "piiquante_project.png",
+            "link": "https://github.com/Emiliengrbn/Piiquante"
+        },{
+            "title": "Game On",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/GameOn"
+        },{
+            "title": "Fisheye",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/Fisheye"
+        },{
+            "title": "Billed",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/Billed"
+        },{
+            "title": "Les petits plats",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/Les_petits_plats"
+        },{
+            "title": "Learn@Home",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/"
+        },{
+            "title": "Kasa",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "kasa_project.png",
+            "link": "https://github.com/Emiliengrbn/Kasa"
+        },{
+            "title": "SportSee",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/"
+        },{
+            "title": "Argent Bank",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/"
+        },{
+            "title": "Wealth Health",
+            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+			"picture": "not_available.png",
+            "link": "https://github.com/Emiliengrbn/"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25%;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    form {
+        width: 100%;
+    }
+    
+    .form_group {
+        display: flex;
+        justify-content: space-between;
+
+        .formData {
+            width: 45%;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    input {
+        height: 30px;
+    }
+
+    input[type="object"] {
+        width: 45%;
+    }
+    
+    textarea[name="message"] {
+        width: 100%;
+        padding: 10px 10px;
+    }
+}
+
+.formData label {
+    font-size: 19px;
+    color: #fff;
+}
+
+.text-control {
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #819299;
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+
+.formData[data-error]::after {
+    content: attr(data-error);
+    font-size: 15px;
+    color: #e54858;
+    display: block;
+    margin: 10px 0;
+    line-height: 0.3;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .formData[data-error-visible="true"]::after {
+    opacity: 1;
+  }
+  
+  .formData[data-error-visible="true"] .text-control {
+    border: 2px solid #e54858;
+  }
+
+  .btn-submit {
+    // width: 50%;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: #819299;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .btn-submit:hover {
+    background-color: #616d72;
+  }

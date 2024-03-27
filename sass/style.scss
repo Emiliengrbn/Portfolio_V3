@@ -1,0 +1,224 @@
+@import "reset.scss";
+@import "carousel.scss";
+@import "contact.scss";
+
+$primary: #000;
+$secondary: #819299;
+
+* {
+    font-family: "Roboto", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background: $primary;
+    color: #fff;
+    font-weight: 500;
+}
+
+section h2 {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+/*-------------- HEADER --------------*/
+
+header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid $secondary;
+    padding: 0 50px;
+    position: fixed;
+    background: $primary;
+    z-index: 1000;
+
+    a{
+        text-decoration: none;
+        color: $secondary;
+    }
+
+    img {
+        width: 60px;
+    }
+}
+
+/*-------------- HOME --------------*/
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .slogan {
+        font-size: 22px;
+    }
+
+    .memoji {
+        width: 300px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            border-radius: 0 0 0 150px;
+        }
+
+        div {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(white, rgb(77, 77, 77));
+            border-radius: 100%;
+            
+        }
+    }
+}
+
+/*-------------- SKILLS --------------*/
+
+.skills_section {
+    /* height: 100vh; */
+    // background-color: $secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.title__skills {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+    text-shadow: -15px 15px 10px black;
+    background-color: $secondary;
+}
+
+.skills_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 75px 0;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    &:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 1rem;
+    }
+
+    .flip-card-front {
+        align-items: center;
+    }
+    
+    .flip-card-back {
+        transform: rotateY(180deg);
+    }
+
+    .flip__border {
+        box-shadow: 0 0 15px $secondary;
+        border: 1px solid $secondary;
+    }
+}
+
+.logo__skills {
+    width: 100px;
+}
+
+.txt__skills {
+    font-size: 20px;
+}
+
+@media all and (max-width: 768px) {
+    .skills_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .skills_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*-------------- Footer --------------*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    border-top: 3px solid #819299;
+}
+
+.footer__element {
+    width: 236px;
+    display: flex;
+    justify-content: center;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
