@@ -58,7 +58,7 @@
     content: attr(data-error);
     font-size: 15px;
     color: #e54858;
-    display: block;
+    // display: block;
     margin: 10px 0;
     line-height: 0.3;
     opacity: 0;
@@ -88,4 +88,17 @@
 
   .btn-submit:hover {
     background-color: #616d72;
+  }
+
+
+  @media all and (max-width: 1024px) {
+    .contact_section {
+        padding: 0 10%;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .contact_section {
+        padding: 0 5%;
+    }
   }

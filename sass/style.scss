@@ -53,6 +53,12 @@ header {
     }
 }
 
+@media all and (max-width: 768px) {
+    header {
+        padding: 0 10px;
+    }
+}
+
 /*-------------- HOME --------------*/
 
 .home {
@@ -64,16 +70,17 @@ header {
     .title {
         margin-top: 150px;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 55px;
         font-weight: 700;
         color: #fff;
     }
 
     .slogan {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .memoji {
@@ -96,6 +103,34 @@ header {
             
         }
     }
+}
+
+
+// @media all and (max-width: 1024px) {
+//     .home h1 {
+
+//     }
+// }
+
+@media all and (max-width: 768px) {
+    .home {
+        height: 100vh;
+
+        .title {
+
+            margin-top: 115px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .slogan {
+            font-size: 22px;
+            margin-top: 15px;
+            padding: 0 10px;
+        }
+    } 
 }
 
 /*-------------- SKILLS --------------*/
@@ -183,15 +218,15 @@ header {
     font-size: 20px;
 }
 
-@media all and (max-width: 768px) {
-    .skills_grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 @media all and (max-width: 1024px) {
     .skills_grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 768px) {
+    .skills_grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -221,4 +256,11 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 17px;
+}
+
+@media all and (max-width: 768px) {
+    .informations {
+        display: grid;
+        gap: 10px;
+    }
 }

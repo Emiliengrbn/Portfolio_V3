@@ -228,7 +228,6 @@ CAROUSEL
   content: attr(data-error);
   font-size: 15px;
   color: #e54858;
-  display: block;
   margin: 10px 0;
   line-height: 0.3;
   opacity: 0;
@@ -259,6 +258,16 @@ CAROUSEL
   background-color: #616d72;
 }
 
+@media all and (max-width: 1024px) {
+  .contact_section {
+    padding: 0 10%;
+  }
+}
+@media all and (max-width: 768px) {
+  .contact_section {
+    padding: 0 5%;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -303,6 +312,11 @@ header img {
   width: 60px;
 }
 
+@media all and (max-width: 768px) {
+  header {
+    padding: 0 10px;
+  }
+}
 /*-------------- HOME --------------*/
 .home {
   height: 100vh;
@@ -313,14 +327,15 @@ header img {
 .home .title {
   margin-top: 150px;
   margin-bottom: 50px;
+  text-align: center;
 }
 .home h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   color: #fff;
 }
 .home .slogan {
-  font-size: 22px;
+  font-size: 25px;
 }
 .home .memoji {
   width: 300px;
@@ -340,6 +355,22 @@ header img {
   border-radius: 100%;
 }
 
+@media all and (max-width: 768px) {
+  .home {
+    height: 100vh;
+  }
+  .home .title {
+    margin-top: 115px;
+  }
+  .home h1 {
+    font-size: 40px;
+  }
+  .home .slogan {
+    font-size: 22px;
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+}
 /*-------------- SKILLS --------------*/
 .skills_section {
   /* height: 100vh; */
@@ -417,14 +448,14 @@ header img {
   font-size: 20px;
 }
 
-@media all and (max-width: 768px) {
-  .skills_grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 @media all and (max-width: 1024px) {
   .skills_grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (max-width: 768px) {
+  .skills_grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*-------------- Footer --------------*/
@@ -452,6 +483,13 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 17px;
+}
+
+@media all and (max-width: 768px) {
+  .informations {
+    display: grid;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
