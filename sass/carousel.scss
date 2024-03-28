@@ -3,13 +3,6 @@
     overflow-x: hidden;
 }
 
-// .title {
-//     font-size: 25px;
-//     color: #fff;
-//     font-weight: bold;
-//     margin-bottom: 25px;
-// }
-
 .item {
     margin: 40px 10px;
     background-color: #000;
@@ -38,10 +31,14 @@
 }
 
 .item__body {
-    padding: 25px;
+    padding: 0 25px 10px;
     padding-top: 0;
     color: #fff;
     cursor: grab;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 110px;
 }
 
 .item__title {

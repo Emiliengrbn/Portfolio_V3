@@ -16,86 +16,98 @@
             "name": "REACT",
 			"picture": "react.png"
 		}, {
+            "name": "Angular",
+			"picture": "angular.png"
+        }, {
+            "name": "Java",
+			"picture": "java.png"
+        }, {
+            "name": "JEST",
+			"picture": "jest.png"
+        }, {
             "name": "GIT",
 			"picture": "git.png"
 		}, {
             "name": "NODEjs",
 			"picture": "nodejs.png"
 		}, {
-            "name": "JEST",
-			"picture": "jest.png"
+            "name": "Figma",
+			"picture": "figma.png"
+        }, {
+            "name": "MongoDB",
+			"picture": "mongodb.png"
         }
     ], "projects": [
         {
             "title": "Booki",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Création d'une Home page avec html / css",
 			"picture": "not_available.png",
-            "link": "https://github.com/Emiliengrbn/"
+            "link": "https://github.com/Emiliengrbn/Booki"
             },{
             "title": "Oh my food",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Intégration des maquettes en mobile fisrt, utilisation des animations css",
 			"picture": "ohmyfood_project.png",
             "link": "https://github.com/Emiliengrbn/ohmyfood"
         },{
             "title": "La Panthère",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Optimisation du SEO, refonte du site avec les bonnes pratiques d'accessibilités et de référencement",
 			"picture": "panthere_project.png",
             "link": "https://github.com/Emiliengrbn/agence_la_panthere"
         },{
             "title": "Kanap",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Afficher dynamiquement les éléments grace à une API, gestion d'événements",
 			"picture": "kanap_project.png",
             "link": "https://github.com/Emiliengrbn/Kanap"
         },{
             "title": "Hot Takes",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Développement du back-end avec la création d'un API",
 			"picture": "piiquante_project.png",
             "link": "https://github.com/Emiliengrbn/Piiquante"
         },{
             "title": "Game On",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Création d'une landing page",
 			"picture": "not_available.png",
             "link": "https://github.com/Emiliengrbn/GameOn"
         },{
             "title": "Fisheye",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Intégration dynamique des maquettes grace à Javascript",
 			"picture": "not_available.png",
             "link": "https://github.com/Emiliengrbn/Fisheye"
         },{
             "title": "Billed",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Découverte de Jest, mise en place de tests d'integrations, tests unitaires et test End To End",
 			"picture": "not_available.png",
             "link": "https://github.com/Emiliengrbn/Billed"
         },{
             "title": "Les petits plats",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Intégration des maquettes, création d'un algorithme de recherche et d'une recherche par tags",
 			"picture": "not_available.png",
             "link": "https://github.com/Emiliengrbn/Les_petits_plats"
         },{
             "title": "Learn@Home",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Créations de maquettes pour une application de soutien scolaire via Figma",
 			"picture": "not_available.png",
-            "link": "https://github.com/Emiliengrbn/"
+            "link": "https://www.figma.com/file/fAZLn1isSk63i2gikcZHfF/Maquette-Learn%40Home?type=design&node-id=0-1&mode=design&t=Pz9L2MJ2aU33fdM7-0"
         },{
             "title": "Kasa",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Intégration des maquettes en utilisant Reactjs (React Router, Use State, etc...)",
 			"picture": "kasa_project.png",
             "link": "https://github.com/Emiliengrbn/Kasa"
         },{
             "title": "SportSee",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Projet en cours de développment",
 			"picture": "not_available.png",
-            "link": "https://github.com/Emiliengrbn/"
+            "link": "https://github.com/Emiliengrbn/Sportsee"
         },{
             "title": "Argent Bank",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Projet en cours de développment",
 			"picture": "not_available.png",
-            "link": "https://github.com/Emiliengrbn/"
+            "link": "https://github.com/Emiliengrbn/ArgentBank"
         },{
             "title": "Wealth Health",
-            "description": "Déscription test pour mon jolie carousel qui doit siper bien marcher",
+            "description": "Projet en cours de développment",
 			"picture": "not_available.png",
-            "link": "https://github.com/Emiliengrbn/"
+            "link": "https://github.com/Emiliengrbn/WealthHealth"
         }
     ]
 }

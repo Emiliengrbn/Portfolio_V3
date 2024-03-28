@@ -76,10 +76,14 @@ td, th {
 }
 
 .item__body {
-  padding: 25px;
+  padding: 0 25px 10px;
   padding-top: 0;
   color: #fff;
   cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 110px;
 }
 
 .item__title {
@@ -243,7 +247,7 @@ CAROUSEL
 }
 
 .btn-submit {
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 30px;
   background-color: #819299;
   border: 2px solid #fff;
@@ -312,6 +316,91 @@ header img {
   width: 60px;
 }
 
+.linkedin__logo,
+.github__logo,
+.cv__logo {
+  width: 20px;
+  display: flex;
+}
+
+.cv__logo {
+  margin-left: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links .icon {
+  position: relative;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px #819299;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  background-color: #819299;
+}
+.links .tooltip {
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.links .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s;
+}
+
+.links .icon:hover .tooltip {
+  top: 45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.links .icon:hover span,
+.links .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.links .icon:hover .tooltip,
+.links .icon:hover .tooltip::before {
+  background-color: #819299;
+  color: #fff;
+  font-weight: 600;
+}
+
+.links .icon:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
+}
+
+.links .icon:not(:hover) {
+  transition: ease-in-out 0.2s;
+}
+
 @media all and (max-width: 768px) {
   header {
     padding: 0 10px;
@@ -373,18 +462,9 @@ header img {
 }
 /*-------------- SKILLS --------------*/
 .skills_section {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.title__skills {
-  font-size: 50px;
-  margin-top: 50px;
-  font-weight: 500;
-  text-shadow: -15px 15px 10px black;
-  background-color: #819299;
 }
 
 .skills_grid {

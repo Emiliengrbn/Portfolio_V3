@@ -25,14 +25,7 @@ async function displayData(skills, projects) {
     pagination: true,
   });
 
-  const contact = new Contact();
-  // contact.formVerification();
-  //Contact
-  // const form = document.querySelector("form");
-  // form.addEventListener("submit", (e) => {
-  //   e.preventDefault();
-  //   contact.send();
-  // });
+  new Contact();
 }
 
 async function init() {

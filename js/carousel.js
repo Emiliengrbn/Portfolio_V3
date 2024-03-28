@@ -402,19 +402,3 @@ export class Carousel {
     return this.root.offsetWidth;
   }
 }
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   //   new Carousel(document.querySelector("#carousel1"), {
-//   //     slidesVisible: 2,
-//   //     slidesToScroll: 2,
-//   //     pagination: true,
-//   //     loop: true,
-//   //   });
-//   new Carousel(document.querySelector("#carousel"), {
-//     slidesVisible: 2,
-//     slidesToScroll: 2,
-//     infinite: true,
-//     pagination: true,
-//   });
-//   //   new Carousel(document.querySelector("#carousel3"));
-// });
